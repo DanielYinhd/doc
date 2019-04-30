@@ -14,7 +14,9 @@ sudo docker login --username=[username] hub.baidubce.com
 如果登录失败可使用如下指令后再次登录：
 ```
 sudo su root
+```
 本地build docker image：
+```
 docker build -t hub.baidubce.com/[namespace]/[server-name]:1.0.1 .
 ```
 push image 到私有镜像仓库：
