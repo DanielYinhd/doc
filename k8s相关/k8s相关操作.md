@@ -13,3 +13,8 @@ kubectl expose -n ns-prod deployment prod-gw-oauth --port=3000 --type=NodePort
 ```
 kubectl expose -n ns-prod deployment prod-bff-oauth --port=3101
 ```
+
+### 查看运行状态
+```
+kubectl get deployments --all-namespaces
+```

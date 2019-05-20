@@ -1,0 +1,5 @@
+db.createUser({user:"AJKAdmin",pwd:"JiuAn_mg2019!!!",roles:[  {role:"clusterAdmin", db:"admin" }, {role:"readAnyDatabase",db:"admin" }, {role:"readWrite",db:	"ih_aijiakang" } ]})
+
+db.grantRolesToUser("AJKAdmin",[{ role: "readWriteAnyDatabase", db:"ih_aijiakang"}])
+readAnyDatabase
+readWriteAnyDatabase

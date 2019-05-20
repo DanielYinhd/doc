@@ -1,0 +1,3 @@
+```
+docker run -d -p 27017:27017  -v /home/mongo:/data/db --name mongo -d mongo:3.4
+```
